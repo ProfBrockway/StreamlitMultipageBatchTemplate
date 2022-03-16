@@ -22,3 +22,4 @@
 # with a modified primary color
 base="light"
 primaryColor="#4b8aff"
+secondaryBackgroundColor="#f0f6f6"

@@ -92,8 +92,8 @@ def HomePage_Build_And_Show():
 def Plot1Page_Build_And_Show():
 ###############################################################################    
 ######### +++ BUILD THE USER INPUT PANEL.    
-    st.subheader("🟢 WELCOME TO THE Plot1Page PAGE OF APP  \r"
-            "Please supply the plots' parameters and click 'PLOT NOW'.")
+    st.subheader("🟢 WELCOME TO THE Plot1Page PAGE OF APP.  ")
+    st.info("Please supply the plots'  parameters and click 'PLOT NOW'.")
 
     # Make the streamlit fullscreen  icon larger.   
     Streamlit_FullScreenIcon_Format() 
