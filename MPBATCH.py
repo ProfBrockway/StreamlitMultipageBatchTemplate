@@ -78,8 +78,10 @@ def HomePage_Build_And_Show():
             "a user input form can be completely filled out before "
             " submitting. This prevents every user change to  "
             " widgets from reinvoking the app.  \r"
-            " But forms  don't allow any other buttons so we can't  "
-            "- for example - use the streamlit_download file button. "
+            " But forms  don't allow any other buttons.  "
+            " The streamlit_download file button works if placed outside the "
+            " form but this can be awkward and will clear the current plot"
+            " when used."
             "This could be a real drawback.  \r   \r"
             "SEE 'MPNOBATCH.py' FOR AN EXAMPLE OF THIS APP  N O T  USING A " 
             "STREAMLIT FORM WHICH WILL ALLOW ANYTHING ON A PAGE AT "
@@ -436,6 +438,7 @@ def Initialization_Perform_First_Load_Only():
         'Get Help  ':  Link01,
         'Report a bug  ': Link04,
         'About': '  \rProgram: '            + ThisModule_FileName 
+               + '  \rVersion:  '           + ThisModule_Version 
                + '  \rProject:  '           + ThisModule_Project
                + '  \rProgram Purpose:  '   + ThisModule_Purpose 
                + '  \rAuthor:  '            + ThisModule_Author   
@@ -444,7 +447,6 @@ def Initialization_Perform_First_Load_Only():
                + '  \rApp Documentation:  ' + Link01
                + '  \rCode:  '              + Link03
                + '  \rProject Files:  '     + Link02
-               + '  \rVersion:  '           + ThisModule_Version               
                   }
                          )
     # End of st.set_page_config 
