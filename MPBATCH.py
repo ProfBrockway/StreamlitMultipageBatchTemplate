@@ -93,7 +93,7 @@ def Plot1Page_Build_And_Show():
 ###############################################################################    
 ######### +++ BUILD THE USER INPUT PANEL.    
     st.subheader("🟢 WELCOME TO THE Plot1Page PAGE OF APP.  ")
-    st.info("Please supply the plots'  parameters and click 'PLOT NOW'.")
+    
 
     # Make the streamlit fullscreen  icon larger.   
     Streamlit_FullScreenIcon_Format() 
@@ -106,6 +106,7 @@ def Plot1Page_Build_And_Show():
 
     with Plot1Form:
 ###################### CREATE A PANEL OF INPUT WIDGETS ########################
+        st.info("Please supply the plots'  parameters and click 'PLOT NOW'.")
         col1, col2, col3, col4 = st.columns(4)
         with col1: 
             P1DemoVar1=st.number_input(label="X",
