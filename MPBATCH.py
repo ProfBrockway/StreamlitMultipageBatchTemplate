@@ -72,20 +72,21 @@ def HomePage_Build_And_Show():
     st.subheader(f"🟢 WELCOME TO THE HOME PAGE OF APP '{fn}'.")
     
     st.info("🟢 "
-            "THIS PAGE IS CONSTRUCTED AS A STREAMLIT 'BATCH PAGE' AND A "
-            "SINGLE 'form_submit_button'.  \r"
-            "A batch page has the advantage that "
-            "a user input form can be completely filled out before "
-            " submitting. This prevents every user change to  "
-            " widgets from reinvoking the app.  \r"
-            " But forms  don't allow any other buttons.  "
-            " The streamlit_download file button works if placed outside the "
-            " form but this can be awkward and will clear the current plot"
-            " when used."
-            "This could be a real drawback.  \r   \r"
-            "SEE 'MPNOBATCH.py' FOR AN EXAMPLE OF THIS APP  N O T  USING A " 
-            "STREAMLIT FORM WHICH WILL ALLOW ANYTHING ON A PAGE AT "
-            "THE EXPENSE OF A LITTLE LESS EFFICIENCY.  ")
+        "THIS PAGE IS CONSTRUCTED AS A STREAMLIT 'BATCH PAGE' AND A "
+        "SINGLE 'form_submit_button'.  \r"
+        "A batch page has the advantage that "
+        "a user input form can be completely filled out before "
+        " submitting. This prevents every user change to  "
+        " widgets from reinvoking the app.  \r"
+        " But forms  don't allow any other buttons.  "
+        " The streamlit_download file button works if placed outside the "
+        " form but this can be awkward and will clear the current plot"
+        " when used."
+        "This could be a real drawback.  \r   \r"
+        "SEE 'MPNOBATCH.py' FOR AN EXAMPLE OF THIS APP  N O T  USING A " 
+        "STREAMLIT FORM WHICH WILL:(a) ALLOW ANYTHING ON A PAGE AT "
+        "THE EXPENSE OF A LITTLE LESS EFFICIENCY (b) HAVE INSTANT UPDATES "
+        "OF THE DISPLAY AS WIDGETS CHANGE.  ")
  
             
 def Plot1Page_Build_And_Show():
