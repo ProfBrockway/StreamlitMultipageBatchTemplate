@@ -11,7 +11,7 @@ Author:
 # TO DO:
 
 
-# streamlit run "G:\My Drive\UConn\1-Subjects\Python\STAT476\CODE\StreamlitMultipageBatchTemplate\MPBATCH.py"
+# streamlit run "G:\My Drive\UConn\1-Subjects\Python\STAT476\CODE\StreamlitMultipageBatchForm\MPBATCH.py"
 import streamlit as st
 from streamlit import session_state as S
 import os
